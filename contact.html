@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header_flex">
+                <h1>Cresta Design</h1>
+                <ul>
+                    <li><a href="#">Concept</a></li>
+                    <li><a href="#">Service</a></li>
+                    <li><a href="#">Works</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger" id="open">
+                    <span></span><span></span><span></span>
+                </div>
+                <!-- modal -->
+                <section id="modal_all" class="hidden">
+                    <div id="layer" class="hidden"></div>
+
+                    <div id="close">
+                        <span id="close_1"></span><span id="close_2"></span>
+                    </div>
+
+                    <ul>
+                        <li>Concept</li>
+                        <li>Service</li>
+                        <li>Works</li>
+                        <li>Content</li>
+                    </ul>
+
+                </section>
+                <!-- modal -->
+            </div>
+            <h2>Contact</h2>
+            <h3 class="header_opacity">Contact us</h3>
+        </div>
+    </header>
+
+    <main>
+        <h4>お問い合わせ内容</h4>
+        <form action="#" method="post">
+            <ul class="box_information">
+                <li><input type="checkbox" name="box" value="box1">資料請求</li>
+                <li><input type="checkbox" name="box" value="box2">お電話でのご相談を希望</li>
+                <li><input type="checkbox" name="box" value="box3">申し込み</li>
+            </ul>
+            <form>
+                <h4>担当者名</h4>
+                <form>
+                    <input type="name" class="textbox" name="textbox">
+                </form>
+
+                <h4>電話番号</h4>
+                <form>
+                    <input type="tel" class="textbox" name="textbox">
+                </form>
+
+                <h4>メールアドレス</h4>
+                <form>
+                    <input type="email" class="textbox" name="textbox">
+                </form>
+
+                <h4>その他</h4>
+                <textarea></textarea>
+
+                <button>Submit</button>
+    </main>
+
+    <footer>
+        <small>©cresta.design all rights reserved</small>
+    </footer>
+</body>
+
+</html>
